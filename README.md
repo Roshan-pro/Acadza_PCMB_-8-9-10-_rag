@@ -28,7 +28,7 @@ A fully automated, modular AI pipeline that converts any NCERT chapter (Physics,
 
 ### What this pipeline does
 
-This system takes **any NCERT chapter PDF** (Classes 11–12, subjects: Physics, Chemistry, Mathematics, Biology) as input and fully automatically produces:
+This system takes **any NCERT chapter PDF** (Classes 8,9 & 10, subjects: Physics, Chemistry, Mathematics, Biology) as input and fully automatically produces:
 
 - A **structured knowledge graph** with concepts, subconcepts, and detailed theory
 - A **question bank** with MCQs and subjective questions at three difficulty levels
