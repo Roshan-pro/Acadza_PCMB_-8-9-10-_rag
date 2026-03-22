@@ -39,10 +39,10 @@ This system takes **any NCERT chapter PDF** (Classes 11–12, subjects: Physics,
 
 | Subject | Classes | Coverage |
 |---------|---------|---------|
-| Physics | 11 & 12 | All NCERT chapters (e.g., Kinematics → Semiconductors) |
-| Chemistry | 11 & 12 | All NCERT chapters (e.g., Atomic Structure → Polymers) |
-| Mathematics | 11 & 12 | All NCERT chapters (e.g., Sets → Probability) |
-| Biology | 11 & 12 | All NCERT chapters (e.g., Cell Biology → Ecology) |
+| Physics |8,9 & 10 | All NCERT chapters  |
+| Chemistry | 8,9 & 10 | All NCERT chapters  |
+| Mathematics | 8,9 & 10 | All NCERT chapters  |
+| Biology | 8,9 & 10 | All NCERT chapters  |
 
 ### What problems it solves
 
@@ -155,7 +155,7 @@ If all three fail, the LLM is called again (up to 3 retries).
 
 | Property | Value |
 |----------|-------|
-| Model ID | `llama3-70b-8192` |
+| Model ID | `llama-3.3-70b-versatile` |
 | Provider | Groq Cloud |
 | Cost | **FREE** (rate-limited tier) |
 | Context window | 8,192 tokens |
@@ -163,7 +163,7 @@ If all three fail, the LLM is called again (up to 3 retries).
 | Latency | ~0.5–2s per request (Groq LPU hardware) |
 | API key | Obtain free at [console.groq.com](https://console.groq.com) |
 
-**Why Llama 3 70B?**
+**Why Llama 3.3 70B?**
 - Best freely available open-weight model for instruction-following and structured JSON output
 - Groq's LPU hardware makes it significantly faster than hosted alternatives
 - 8K context is sufficient for RAG-augmented prompts (retrieved chunks ~1500 chars + system prompt + generation)
@@ -173,7 +173,7 @@ If all three fail, the LLM is called again (up to 3 retries).
 
 | Model | Best for |
 |-------|---------|
-| `llama3-70b-8192` | Best accuracy — recommended ✅ |
+| `llama-3.3-70b-versatile` | Best accuracy — recommended ✅ |
 | `mixtral-8x7b-32768` | Longer context (32K) — good for dense chapters |
 | `gemma2-9b-it` | Fastest — use for prototyping only |
 
