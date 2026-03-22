@@ -1,0 +1,28 @@
+
+langchain
+langchain-community
+beautifulsoup4
+# LLM
+openai
+
+# Embeddings & Vector Store
+faiss-cpu
+tiktoken
+
+# Document Loaders
+pypdf         
+requests
+
+sentence-transformers
+torch                  
+
+# Utilities
+python-dotenv           
+tqdm  
+langchain-text-splitters              
+langchain-openai
+langchain-core
+langchain-huggingface 
+pymupdf
+accelerate
+groq
