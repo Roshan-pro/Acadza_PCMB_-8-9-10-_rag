@@ -349,7 +349,7 @@ Each line is a **self-contained, valid JSON object** — the file can be streame
 ### Sample `hierarchy.jsonl` line
 
 ```json
-{"Chapter 1: Electric Charges and Fields": {"Electric Charges and Fields": ["Electric Charge", "Conductors and Insulators", "Charging by Induction", "Coulomb's Law", "Basic Properties of Electric Charge"], "Electric Field": ["Electric Field Intensity", "Electric Field Lines", "Electric Flux", "Electric Dipole", "Dipole in a Uniform External Field"], "Gauss's Law": ["Gauss's Law Statement", "Applications of Gauss's Law", "Field due to Infinite Line Charge", "Field due to Uniformly Charged Plane Sheet", "Field due to Thin Spherical Shell"]}}
+{"Chapter 1: Physical Nature of Matter": {"Introduction to Matter": ["Definition of Matter", "Examples of Matter", "Properties of Matter (Mass and Volume)", "Historical Classification of Matter (Panch Tatva and Ancient Greek Philosophers)"], "Physical Nature of Matter": ["Matter is Made up of Particles", "Continuous vs Particulate Nature of Matter", "Activity to Demonstrate Particulate Nature of Matter (needs visuals)", "Concept of Particles Spreading Throughout a Substance"], "Properties of Matter": ["Mass of Matter", "Volume of Matter", "SI Units of Mass (kg) and Volume (m3, L, mL, cm3)", "Conversion of Units for Volume"], "Particle Size and Distribution": ["Estimating Particle Size", "Activity to Demonstrate Particle Distribution (needs visuals)", "Concept of Particles Occupying Space and Having Mass"]}}
 ```
 
 ---
@@ -362,17 +362,20 @@ Benchmarks measured on the sample run: **Physics Class 12, Chapter 1 — Electri
 
 ### 6.1 Concept & Subconcept Node Count
 
-| # | Concept Node | Subconcept Nodes | Subconcept Count |
-|---|-------------|-----------------|-----------------|
-| 1 | Electric Charges and Fields | Electric Charge, Conductors and Insulators, Charging by Induction, Basic Properties of Electric Charge, Coulomb's Law | 5 |
-| 2 | Electric Field | Electric Field Intensity, Electric Field Lines, Electric Flux, Electric Dipole, Dipole in a Uniform External Field | 5 |
-| 3 | Gauss's Law | Gauss's Law Statement, Applications of Gauss's Law, Field due to Infinite Line Charge, Field due to Uniformly Charged Plane Sheet, Field due to Thin Spherical Shell | 5 |
+| # | Concept Node                   | Subconcept Nodes                                                                                                                                                                                        | Subconcept Count |
+| - | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 1 | Introduction to Matter         | Definition of Matter, Examples of Matter, Properties of Matter (Mass and Volume), Historical Classification of Matter (Panch Tatva and Ancient Greek Philosophers)                                      | 4                |
+| 2 | Physical Nature of Matter      | Matter is Made up of Particles, Continuous vs Particulate Nature of Matter, Activity to Demonstrate Particulate Nature of Matter (needs visuals), Concept of Particles Spreading Throughout a Substance | 4                |
+| 3 | Properties of Matter           | Mass of Matter, Volume of Matter, SI Units of Mass (kg) and Volume (m³, L, mL, cm³), Conversion of Units for Volume                                                                                     | 4                |
+| 4 | Particle Size and Distribution | Estimating Particle Size, Activity to Demonstrate Particle Distribution (needs visuals), Concept of Particles Occupying Space and Having Mass                                                           | 3                |
 
-| Metric | Count |
-|--------|-------|
-| **Total Concept nodes** | **3** |
-| **Total Subconcept nodes** | **15** |
-| **Total nodes in knowledge graph** | **18** |
+
+| Metric                             | Count  |
+| ---------------------------------- | ------ |
+| **Total Concept nodes**            | **4**  |
+| **Total Subconcept nodes**         | **15** |
+| **Total nodes in knowledge graph** | **19** |
+
 
 ---
 
@@ -380,23 +383,23 @@ Benchmarks measured on the sample run: **Physics Class 12, Chapter 1 — Electri
 
 Each subconcept node generates exactly **6 questions**: 3 SCQs + 3 Subjective.
 
-| Subconcept Node | SCQs | Subjective Qs | Total Qs |
-|----------------|------|--------------|---------|
-| Electric Charge | 3 | 3 | 6 |
-| Conductors and Insulators | 3 | 3 | 6 |
-| Charging by Induction | 3 | 3 | 6 |
-| Basic Properties of Electric Charge | 3 | 3 | 6 |
-| Coulomb's Law | 3 | 3 | 6 |
-| Electric Field Intensity | 3 | 3 | 6 |
-| Electric Field Lines | 3 | 3 | 6 |
-| Electric Flux | 3 | 3 | 6 |
-| Electric Dipole | 3 | 3 | 6 |
-| Dipole in a Uniform External Field | 3 | 3 | 6 |
-| Gauss's Law Statement | 3 | 3 | 6 |
-| Applications of Gauss's Law | 3 | 3 | 6 |
-| Field due to Infinite Line Charge | 3 | 3 | 6 |
-| Field due to Uniformly Charged Plane Sheet | 3 | 3 | 6 |
-| Field due to Thin Spherical Shell | 3 | 3 | 6 |
+| Subconcept Node                                                                  | SCQs | Subjective Qs | Total Qs |
+| -------------------------------------------------------------------------------- | ---- | ------------- | -------- |
+| Definition of Matter                                                             | 3    | 3             | 6        |
+| Examples of Matter                                                               | 3    | 3             | 6        |
+| Properties of Matter (Mass and Volume)                                           | 3    | 3             | 6        |
+| Historical Classification of Matter (Panch Tatva and Ancient Greek Philosophers) | 3    | 3             | 6        |
+| Matter is Made up of Particles                                                   | 3    | 3             | 6        |
+| Continuous vs Particulate Nature of Matter                                       | 3    | 3             | 6        |
+| Activity to Demonstrate Particulate Nature of Matter (needs visuals)             | 3    | 3             | 6        |
+| Concept of Particles Spreading Throughout a Substance                            | 3    | 3             | 6        |
+| Mass of Matter                                                                   | 3    | 3             | 6        |
+| Volume of Matter                                                                 | 3    | 3             | 6        |
+| SI Units of Mass (kg) and Volume (m³, L, mL, cm³)                                | 3    | 3             | 6        |
+| Conversion of Units for Volume                                                   | 3    | 3             | 6        |
+| Estimating Particle Size                                                         | 3    | 3             | 6        |
+| Activity to Demonstrate Particle Distribution (needs visuals)                    | 3    | 3             | 6        |
+| Concept of Particles Occupying Space and Having Mass                             | 3    | 3             | 6        |
 | **CHAPTER TOTAL** | **45** | **45** | **90** |
 
 ---
@@ -457,10 +460,10 @@ Visual detection rate by subject (estimated across full NCERT):
 
 | Subject | Chapters | Est. Concepts | Est. Subconcepts | Est. Total Questions |
 |---------|---------|--------------|-----------------|---------------------|
-| Physics (11+12) | 30 | ~90 | ~450 | ~2,700 |
-| Chemistry (11+12) | 30 | ~90 | ~450 | ~2,700 |
-| Mathematics (11+12) | 26 | ~78 | ~390 | ~2,340 |
-| Biology (11+12) | 38 | ~114 | ~570 | ~3,420 |
+| Physics (8-10) | 30 | ~90 | ~450 | ~2,700 |
+| Chemistry (8-10) | 30 | ~90 | ~450 | ~2,700 |
+| Mathematics (8-10) | 26 | ~78 | ~390 | ~2,340 |
+| Biology (8-10) | 38 | ~114 | ~570 | ~3,420 |
 | **Total PCMB** | **124** | **~372** | **~1,860** | **~11,160** |
 
 > Estimates based on ~3 concepts/chapter, ~5 subconcepts/concept, 6 questions/subconcept.  
